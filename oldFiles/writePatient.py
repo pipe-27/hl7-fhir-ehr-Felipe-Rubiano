@@ -27,7 +27,7 @@ def save_patient_to_mongodb(patient_json, collection):
 # Ejemplo de uso
 if _name_ == "_main_":
     # Cadena de conexión a MongoDB (reemplaza con tu propia cadena de conexión)
-    uri = ""
+    uri = "mongodb://felipe:hl7-fhir-ehr-Felipe-Rubiano@sampleinformationservic-shard-00-00.fkbk7.mongodb.net:27017,sampleinformationservic-shard-00-01.fkbk7.mongodb.net:27017,sampleinformationservic-shard-00-02.fkbk7.mongodb.net:27017/?replicaSet=atlas-3q3dfi-shard-0&ssl=true&authSource=admin&retryWrites=true&w=majority&appName=SampleInformationService"
  
     # Nombre de la base de datos y la colección
     db_name = "SamplePatientService"
